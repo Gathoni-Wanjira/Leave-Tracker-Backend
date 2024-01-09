@@ -30,14 +30,15 @@ def index():
     start_date = data["startDate"]
     end_date =data["endDate"]
     email_address = data["email"]
+    days_Number = data["daysNumber"]
 
 
     leave_request_email = f"""
     
     Dear HR,
 
-    I hope this message finds you well. I would like to request leave from the {department} department for the following reasons:
-
+    I hope this message finds you well. I would like to request leave from the {department} department for {days_Number} days.
+    
     - Reason for Leave: {reason}
     - Start Date: {start_date}
     - End Date: {end_date}
