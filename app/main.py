@@ -37,17 +37,16 @@ def index():
     
     Dear HR,
 
-    I hope this message finds you well. I would like to request leave from the {department} department for {days_Number} days.
+    Good day, I hope this message finds you well.
+    
+    I would like to request leave from the {department} department for {days_Number} days.
     
     - Reason for Leave: {reason}
     - Start Date: {start_date}
     - End Date: {end_date}
 
-    If there are any specific procedures or forms that need to be completed for the leave request, please let me know, and I will promptly take care of them.
 
-    Your understanding and support regarding this matter are highly appreciated.
-
-    Regards,
+    Kind regards,
 
     {full_name}
     {email_address}
